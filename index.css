@@ -93,3 +93,30 @@ button:hover {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media only screen and (max-width: 900px) {
+  main {
+    width: 750px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    height: auto;
+  }
+  main {
+    width: 100vw;
+    padding: 3rem 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  section {
+    width: 300px;
+  }
+  .sedans {
+    border-radius: 10px 10px 0 0;
+  }
+  .luxury {
+    border-radius: 0 0 10px 10px;
+  }
+}
